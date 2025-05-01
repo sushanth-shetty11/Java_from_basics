@@ -1,4 +1,4 @@
-class dowhile
+class p34
 {
 	public static void main(String[] args)
 	{
