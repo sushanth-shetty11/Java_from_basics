@@ -1,44 +1,56 @@
-// public class ss2 {
+// To check a given String is Palindrome or not
 
-//      static boolean isPalindrome(String str){
+
+public class ss2 {
+
+     static boolean isPalindrome(String str){
          
-//         StringBuffer sb = new StringBuffer(str);
-//         String rev= sb.reverse().toString();
-//         return str.equals(rev);
+        StringBuffer sb = new StringBuffer(str);
+        String rev= sb.reverse().toString();
+        return str.equals(rev);
             
-//         }
-//     public static void main(String[] args) {
-//        String str = "abcbag";
-//        if(isPalindrome(str)){
-//         System.out.println("palindrome");
-//        }
-//        else{
-//         System.out.println("not a palindrome");
-//        }
+        }
+    public static void main(String[] args) {
+       String str = "abcba";
+       if(isPalindrome(str)){
+        System.out.println("palindrome");
+       }
+       else{
+        System.out.println("not a palindrome");
+       }
        
-//     }
+    }
     
+}
+
+// ---or---
+
+// public class ss2{
+//     public static void main(String[] args) {
+//         String str= "abcab";
+//         if(isPalindrome(str)){
+//             System.out.println("palindrome");
+//         }
+//         else{
+//             System.out.println("not a palindrome");
+//         }
+
+//     }
+
+//     static boolean isPalindrome(String str){
+//         int i=0, j=str.length()-1;
+//         while(i<j){
+//             if(str.charAt(i)==str.charAt(j))
+//                 return false;
+//                 i++;j--;
+//         }
+//         return true;
+//     }
 // }
 
-public class ss2{
-    public static void main(String[] args) {
-        String str= "abca";
-        if(isPalindrome(str)){
-            System.out.println("palindrome");
-        }
-        else{
-            System.out.println("not a palindrome");
-        }
 
-    }
+// INPUT  - abcba
+// OUTPUT - palindrome
 
-    static boolean isPalindrome(String str){
-        int i=0, j=str.length()-1;
-        while(i<j){
-            // if(str.charAt(i)==str.charAt(j))
-            //     return true;
-            //     i++;j--;
-        }
-        return false;
-    }
-}
+// INPUT  - abcbag
+// OUTPUT - not a palindrome
