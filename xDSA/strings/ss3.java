@@ -43,5 +43,5 @@ public class ss3 {
     }
 }
 
-1. wap to count sum of digit in string // "abc@123" -- 6
-2. wap to convert uppercase to toLowerCase and lowercase into uppercase // aBcD-- AbCd
+// 1. wap to count sum of digit in string // "abc@123" -- 6
+// 2. wap to convert uppercase to toLowerCase and lowercase into uppercase // aBcD-- AbCd
