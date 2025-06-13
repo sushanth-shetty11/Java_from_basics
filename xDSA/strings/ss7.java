@@ -13,7 +13,7 @@ public class ss7 {
                         b[j]=true;
                     }
                 }
-                 System.out.println(ch[i]+ " : "+ count);.
+                 System.out.println(ch[i]+ " : "+ count);
                  
             }        
         }       

@@ -1,27 +1,40 @@
+// WAP tp print all the prime numbers 
+
 public class aa4 {
     public static void main(String[] args) {
-        int a[] = {4,1,3,8,10};
-        int big= a[0];
-        int small = a[0];
-
-        for(int i=1;i<=a.length-1;i++){
-            if(a[i]>big){
-                big=a[i];
+        int a[]={10,15,17,20};
+        int n=a.length;
+        for(int i=2;i<=n;i++){
+            if(n%i==0){
+                System.out.println("");
             }
-            if(a[i]<small){
-                small=a[i];
-            }
+            
         }
-        for(int i=small+1; i<=big-1;i++){
-            if(isMissing(i,a))
-            System.out.println(i);
-        }
-    }
-    static boolean isMissing(int n,int[] a){
-        for(int i=0;i<=a.length-1;i++){
-            if(a[i]==n)
-            return false;
-        }
-        return true;
+        
     }
 }
+    
+                
+ 
+
+// public class aa4{
+//     public static void main(String[] args) {
+//         int a[] = {6,10,17,20,25,19};
+//         for(int i=0;i<=a.length-1;i++){
+//              if(isPrime(a[i])){
+//             System.out.println(a[i]);
+//         }
+//     }
+//   }
+//     static boolean isPrime(int n){
+//         if(n<=1){
+//             return false;
+//         }
+//         for(int i=2;i<=n/2;i++){
+//             if(n%i==0){
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+// }
