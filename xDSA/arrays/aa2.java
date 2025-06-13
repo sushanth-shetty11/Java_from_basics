@@ -1,8 +1,10 @@
-class aa2 {
+//WAP to find largest element in an array
+
+public class aa2 {
     public static void main(String[] args) {
-        int a[] = {5,10,15,20};
+        int a[] = {5,10,20,15};
         int largest = a[0];
-        for(int i=1; i<a.length;i++)
+        for(int i=1; i<=a.length-1;i++)
         {
             if(a[i]>largest){
                 largest=a[i];
@@ -11,3 +13,7 @@ class aa2 {
         System.out.println(largest);
     }
 }
+
+
+// INPUT  = {5,10,20,15}
+// OUTPUT = 20

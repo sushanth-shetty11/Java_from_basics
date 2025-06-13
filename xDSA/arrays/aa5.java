@@ -5,14 +5,12 @@ public class aa5 {
         int a[]={10,15,17,20};
 
         for(int i=0;i<=a.length-1;i++){
-            if(isPrime(n==true)){
-                System.out.println("prime");
-            }else{
-                System.out.println("not a prime");
-            }
+            if(isPrime(a[i])){
+                System.out.println(a[i]);
         }
         
     }
+}
     static boolean isPrime(int n){
         if(n<=1){
             return false;
