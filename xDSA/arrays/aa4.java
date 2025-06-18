@@ -24,3 +24,4 @@ public class aa4{
 
 // INPUT  = {6,10,17,20,25,19}
 // OUTPUT = 17, 19
+
