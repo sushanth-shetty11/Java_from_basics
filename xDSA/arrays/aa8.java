@@ -1,4 +1,4 @@
-//WAP to print duplicate elements in an array
+//WAP to print unique elements in the array
 
 public class aa8 {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class aa8 {
                         b[j]=true;
                     }
                 }
-                if(count>1)
+                if(count==1)
                 System.out.println((a[i]));
             }
         }
@@ -23,3 +23,7 @@ public class aa8 {
     }
 
 }
+
+
+// OUTPUT = 20
+//          30

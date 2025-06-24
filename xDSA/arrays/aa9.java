@@ -1,4 +1,4 @@
-//WAP to print first duplicated element present in the array
+//WAP to print duplicated element present in the array
 
 public class aa9 {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class aa9 {
             if(b[i]==false){
                 int count=1;
 
-                for(int j=i+1;j<a.length-1;j++){
+                for(int j=i+1;j<=a.length-1;j++){
                     if(a[i]==a[j]){
                         count++;
                         b[j]=true;
@@ -17,9 +17,12 @@ public class aa9 {
                 }
                 if(count>1){
                      System.out.println(a[i]);
-                    break;
                  }
             }
         }
     }
 }
+
+
+// OUTPUT = 10
+//          20

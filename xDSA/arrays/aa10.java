@@ -1,11 +1,10 @@
-//WAP to print first 3 unique elements present in the array
+//WAP to print first duplicated element present in the array
 
 public class aa10 {
     public static void main(String[] args) {
-        int a[]={10,20,10,30,40,50,60};
-        boolean b[]= new boolean[a.length];
-        int uniqueEle=0;
-    
+        int a[]={10,20,10,30,20};
+        boolean b[]=new boolean[a.length];
+        
         for(int i=0;i<=a.length-1;i++){
             if(b[i]==false){
                 int count=1;
@@ -16,14 +15,14 @@ public class aa10 {
                         b[j]=true;
                     }
                 }
-                if(count==1){
-                    System.out.println(a[i]);
-                    uniqueEle++;
-
-                    if(uniqueEle==3)
+                if(count>1){
+                     System.out.println(a[i]);
                     break;
-                }
+                 }
             }
         }
     }
 }
+
+
+// OUTPUT = 10

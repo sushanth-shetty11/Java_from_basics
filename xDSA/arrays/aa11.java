@@ -29,3 +29,9 @@ public class aa11 {
         }
     }
 }
+
+
+// OUTPUT = duplicated elements = 10
+//          duplicated elements = 20
+//          duplicated elements = 30
+//          the 3 element is 30
