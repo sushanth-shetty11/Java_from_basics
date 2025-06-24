@@ -6,7 +6,9 @@ public class n4 {
         if(n/2*2==n){
             System.out.println("even");
         }else{
-            System.out.println("out");
+            System.out.println("odd");
         }
     }
 }
+
+//OUTPUT = odd
