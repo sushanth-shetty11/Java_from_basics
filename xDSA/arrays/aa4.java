@@ -1,4 +1,4 @@
-// WAP tp print all the prime numbers 
+// WAP t0 print all the prime elements in an array
 
 public class aa4{
     public static void main(String[] args) {
