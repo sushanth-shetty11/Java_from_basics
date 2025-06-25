@@ -1,6 +1,8 @@
+//WAP to merge two arrays in a single array
+
 import java.util.Arrays;
 
-public class merge {
+public class aa14 {
     public static void main(String[] args) {
         int a[]= {10,20,30};
         int b[]={50,60,70,80};
@@ -21,3 +23,6 @@ public class merge {
         return c;
     }
 }
+
+
+// OUTPUT = [10, 20, 30, 50, 60, 70, 80]
