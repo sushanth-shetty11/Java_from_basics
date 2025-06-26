@@ -1,3 +1,5 @@
+//WAP to print occurrence of frequency of each character present in a string
+
 public class ss7 {
     public static void main(String[] args) {
         String s="abac";

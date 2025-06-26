@@ -2,34 +2,34 @@ import java.util.Arrays;
 
 public class ss17 {
     public static void main(String[] args) {
-        String s1="silent";
-        String s2="listen";
+        String s1 = "silent";
+        String s2 = "listen";
 
-        if(isAnagram(s1,s2)){
+        if (isAnagram(s1, s2)) {
             System.out.println("Anagram");
-        }else{
-            System.out.println("not an Anagram");
+        } else {
+            System.out.println("Not an Anagram");
         }
     }
 
-        static boolean isAnagram(String s1,String s2){
-            if(s1.length()!=s2.length()){
-                return false;
-                
-                s1=s1.tolowerCase();
-                s2=s2.tolowerCase();
-
-                char[] ch1 = s1.toCharArray();
-                Arrays.sort(ch1);
-                
-                char[] ch2 = s2.toCharArray();
-                Arrays.sort(ch2);
-
-                return Arrays.equals(ch1,ch2);
-            
+    static boolean isAnagram(String s1, String s2) {
+        if (s1.length() != s2.length()) {
+            return false;
         }
+
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+
+        char[] ch1 = s1.toCharArray();
+        Arrays.sort(ch1);
+
+        char[] ch2 = s2.toCharArray();
+        Arrays.sort(ch2);
+
+        return Arrays.equals(ch1, ch2);
     }
 }
+
 
 
 
